@@ -1,0 +1,11 @@
+===================================
+
+DELETE FROM tablename WHERE condition;
+
+===================================
+
+ex: 	DELETE FROM patients WHERE first_name = 'Paul';
+​
+	-- There are no longer any patients named 'Paul' in the database
+
+	SELECT * FROM patients WHERE first_name = 'Paul'

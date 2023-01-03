@@ -1,0 +1,14 @@
+================================================
+
+1. 	INSERT INTO tablename (column1, column2, column3, ...)
+	VALUES (value1, value2, value3, ...);
+
+2. 	INSERT INTO tablename
+    	VALUES (value1, value2, value3, ...);
+
+================================================
+
+ex: 1. 	INSERT INTO patients (first_name, last_name, gender)
+		VALUES ('Jane', 'Doe','F');
+    2. 	SELECT * FROM patients
+		WHERE patient_id = (SELECT MAX(patient_id) FROM patients);

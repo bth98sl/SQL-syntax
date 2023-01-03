@@ -1,0 +1,5 @@
+===================================
+
+1. 	SELECT column1, column2,...
+	FROM table_name
+2. 	SELECT * FROM table_name 
